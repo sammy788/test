@@ -1,0 +1,2 @@
+chmod -R 555 IPADON
+exec IPADON
