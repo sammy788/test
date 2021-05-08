@@ -7,8 +7,8 @@ from django.contrib import messages
 def index(request):
     if request.method == "POST":
         try: 
-            os.system("./fuck.sh")
-            messages.success(request, "CONGRATS YOU GOT WIDE VIEW BITCH!")
+            os.system("bash cpp/selll.sh")
+            messages.success(request, "SUCCESS!")
         except:
-            messages.error(request,"CPP: I'M NOT GONNA RUN, FUCK OFF!")
+            messages.error(request,"ERROR :(")
     return render(request,"index.html")

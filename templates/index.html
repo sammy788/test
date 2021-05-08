@@ -14,7 +14,8 @@
     <div class="container-fluid d-flex justify-content-center">
         <form method="post">
             {% csrf_token %}
-            <button class="btn btn-primary btn-lg" type="submit">WIDE IT UP BABE <i class="bi bi-menu-button-wide"></i></button>
+            {% include "messages.html" %}
+            <button class="btn btn-primary btn-lg" type="submit">WIDE VIEW <i class="bi bi-menu-button-wide"></i></button>
         </form>
     </div>
 </body>
